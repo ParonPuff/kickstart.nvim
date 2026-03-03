@@ -1,5 +1,8 @@
 return {
   'nvim-neorg/neorg',
+  dependencies = {
+    'nvim-treesitter/nvim-treesitter',
+  },
   lazy = false, -- Disable lazy loading as some `lazy.nvim` distributions set `lazy = true` by default
   ft = 'norg',
   opts = {
