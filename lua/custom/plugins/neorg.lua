@@ -19,6 +19,8 @@ return {
       ['core.qol.todo_items'] = {},
 
       ['core.summary'] = {},
+      ['core.looking-glass'] = {},
+      ['core.tangle'] = {},
     },
   },
 }
