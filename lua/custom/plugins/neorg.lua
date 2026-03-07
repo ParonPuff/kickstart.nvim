@@ -1,7 +1,7 @@
 return {
   'nvim-neorg/neorg',
-  dependencies = {
-    'nvim-treesitter/nvim-treesitter',
+  external_module_paths = {
+    vim.fn.stdpath 'config' .. './../../neorg_modules/',
   },
   lazy = false, -- Disable lazy loading as some `lazy.nvim` distributions set `lazy = true` by default
   ft = 'norg',
@@ -24,6 +24,7 @@ return {
       ['core.summary'] = {},
       ['core.looking-glass'] = {},
       ['core.tangle'] = {},
+      ['external.norgql'] = {},
     },
   },
 }
