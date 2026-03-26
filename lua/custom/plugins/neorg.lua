@@ -9,11 +9,17 @@ return {
     load = {
       ['core.defaults'] = {},
       ['core.concealer'] = {},
+      ['core.keybinds'] = {},
+      ['core.presenter'] = {
+        config = {
+          zen_mode = 'zen-mode',
+        },
+      },
 
       ['core.dirman'] = {
         config = {
           workspaces = {
-            notes = '~/neorg',
+            notes = '~/nerog-files/',
           },
           default_workspace = 'notes',
         },
